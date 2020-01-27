@@ -5,7 +5,7 @@
 I built this exercise using MVC and, PHP Framework, Yii 2 Basic [Yii 2](http://www.yiiframework.com/) 
 
 The project contains the basic features of creating, listing and viewing items. 
-Also, it has a RestFul API module that performs the same features  
+Also, it has a RestFul API module that performs the same CRUD features  
 
 
 Data Model
@@ -20,6 +20,9 @@ List of items
 
 Create item
 ![Create](creat.png)
+
+Update item
+![View](update.png)
 
 View item
 ![View](view.png)

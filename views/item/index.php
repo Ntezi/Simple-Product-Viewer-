@@ -33,14 +33,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
             [
                 'class' => 'yii\grid\ActionColumn',
-                'template' => '{view} {edit} {delete}',
+                'template' => '{view} {update} {delete}',
                 'buttons' => [
                     'view' => function ($url, $model) {
                         return Html::a(Yii::t('app', 'View'), $url, [
                             'class' => 'btn btn-info',
                         ]);
                     },
-                    'edit' => function ($url, $model) {
+                    'update' => function ($url, $model) {
                         return Html::a(Yii::t('app', 'Edit'), $url, [
                             'class' => 'btn btn-primary',
                         ]);
